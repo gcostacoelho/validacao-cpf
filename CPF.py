@@ -14,9 +14,10 @@ cpfOrigin = input("Digite seu CPF: ")
 
 cpfList = list(cpfOrigin)
 
-cpfList.remove('.')
-cpfList.remove('.')
-cpfList.remove('-')
+if cpfList ==14:
+    cpfList.remove('.')
+    cpfList.remove('.')
+    cpfList.remove('-')
 
 cpfNum = list(map(int, cpfList))
 
